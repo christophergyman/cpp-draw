@@ -97,11 +97,16 @@ int main() {
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
-    float vertices[] = {
-        -0.5f, -0.5f, 0.0f, // left
-        0.5f,  -0.5f, 0.0f, // right
-        0.0f,  0.5f,  0.0f  // top
-    };
+	float vertices[] = {
+		// triangle 1
+		-0.5f, -0.5f, 0.0f,
+		0.0f, -0.5f, 0.0f,
+		-0.25f, 0.5f, 0.0f,
+		// triangle 2
+		0.0f, -0.5f, 0.0f,
+		0.5f, -0.5f, 0.0f,
+		0.25f, 0.5f, 0.0f
+	};
 
     unsigned int VBO, VAO;
     glGenVertexArrays(1, &VAO);
@@ -149,6 +154,7 @@ int main() {
                                 // no need to bind it every time, but we'll do
                                 // so to keep things a bit more organized
         glDrawArrays(GL_TRIANGLES, 0, 3);
+        glDrawArrays(GL_TRIANGLES, 3, 3);
         // glBindVertexArray(0); // no need to unbind it every time
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse
