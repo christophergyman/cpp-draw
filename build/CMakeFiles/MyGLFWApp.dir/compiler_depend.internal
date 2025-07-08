@@ -94,18 +94,9 @@ CMakeFiles/MyGLFWApp.dir/src/glad.c.o
 
 CMakeFiles/MyGLFWApp.dir/src/main.cpp.o
  /Users/chezu/Documents/github/cpp-draw/src/main.cpp
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLCurrent.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLDevice.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLIOSurface.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLRenderers.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLTypes.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h
@@ -813,7 +804,6 @@ CMakeFiles/MyGLFWApp.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h
- /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h
