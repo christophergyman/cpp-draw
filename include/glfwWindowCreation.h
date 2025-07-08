@@ -1,4 +1,4 @@
-// greet.h
+// glfwWindowCreation.h
 #ifndef GLFWWINDOWCREATION_H 
 #define GLFWWINDOWCREATION_H 
 
