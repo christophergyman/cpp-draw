@@ -14,6 +14,7 @@ include_directories(/opt/homebrew/include)
 set(SOURCES
     src/main.cpp
     src/glad.c
+    src/glfwWindowCreation.cpp
 )
 
 # Add the executable

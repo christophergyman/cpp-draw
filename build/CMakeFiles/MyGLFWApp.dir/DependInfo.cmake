@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/chezu/Documents/github/cpp-draw/src/glad.c" "CMakeFiles/MyGLFWApp.dir/src/glad.c.o" "gcc" "CMakeFiles/MyGLFWApp.dir/src/glad.c.o.d"
+  "/Users/chezu/Documents/github/cpp-draw/src/glfwWindowCreation.cpp" "CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.o" "gcc" "CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.o.d"
   "/Users/chezu/Documents/github/cpp-draw/src/main.cpp" "CMakeFiles/MyGLFWApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyGLFWApp.dir/src/main.cpp.o.d"
   )
 

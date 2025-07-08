@@ -85,12 +85,12 @@ clean: CMakeFiles/MyGLFWApp.dir/clean
 CMakeFiles/MyGLFWApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLFWApp.dir/build.make CMakeFiles/MyGLFWApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLFWApp.dir/build.make CMakeFiles/MyGLFWApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/chezu/Documents/github/cpp-draw/build/CMakeFiles --progress-num=1,2,3 "Built target MyGLFWApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/chezu/Documents/github/cpp-draw/build/CMakeFiles --progress-num=1,2,3,4 "Built target MyGLFWApp"
 .PHONY : CMakeFiles/MyGLFWApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyGLFWApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chezu/Documents/github/cpp-draw/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chezu/Documents/github/cpp-draw/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyGLFWApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chezu/Documents/github/cpp-draw/build/CMakeFiles 0
 .PHONY : CMakeFiles/MyGLFWApp.dir/rule
@@ -102,7 +102,7 @@ MyGLFWApp: CMakeFiles/MyGLFWApp.dir/rule
 # codegen rule for target.
 CMakeFiles/MyGLFWApp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLFWApp.dir/build.make CMakeFiles/MyGLFWApp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/chezu/Documents/github/cpp-draw/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target MyGLFWApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/chezu/Documents/github/cpp-draw/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target MyGLFWApp"
 .PHONY : CMakeFiles/MyGLFWApp.dir/codegen
 
 # clean rule for target.

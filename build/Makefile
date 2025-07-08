@@ -153,6 +153,30 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLFWApp.dir/build.make CMakeFiles/MyGLFWApp.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
+src/glfwWindowCreation.o: src/glfwWindowCreation.cpp.o
+.PHONY : src/glfwWindowCreation.o
+
+# target to build an object file
+src/glfwWindowCreation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLFWApp.dir/build.make CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.o
+.PHONY : src/glfwWindowCreation.cpp.o
+
+src/glfwWindowCreation.i: src/glfwWindowCreation.cpp.i
+.PHONY : src/glfwWindowCreation.i
+
+# target to preprocess a source file
+src/glfwWindowCreation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLFWApp.dir/build.make CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.i
+.PHONY : src/glfwWindowCreation.cpp.i
+
+src/glfwWindowCreation.s: src/glfwWindowCreation.cpp.s
+.PHONY : src/glfwWindowCreation.s
+
+# target to generate assembly for a file
+src/glfwWindowCreation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyGLFWApp.dir/build.make CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.s
+.PHONY : src/glfwWindowCreation.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
+	@echo "... src/glfwWindowCreation.o"
+	@echo "... src/glfwWindowCreation.i"
+	@echo "... src/glfwWindowCreation.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

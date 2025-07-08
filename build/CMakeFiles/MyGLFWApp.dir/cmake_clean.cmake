@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyGLFWApp.dir/src/glad.c.o"
   "CMakeFiles/MyGLFWApp.dir/src/glad.c.o.d"
+  "CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.o"
+  "CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.o.d"
   "CMakeFiles/MyGLFWApp.dir/src/main.cpp.o"
   "CMakeFiles/MyGLFWApp.dir/src/main.cpp.o.d"
   "MyGLFWApp"
