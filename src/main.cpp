@@ -113,6 +113,18 @@ int main() {
 	// creating shader program object to link all shaders and fragments togther
 	unsigned int shaderProgram;
 	shaderProgram = glCreateProgram();
+	
+	// attach all shader objects to program
+	glAttachShader(shaderProgram, vertexShader);
+	glAttachShader(shaderProgram, fragmentShader);
+	glLinkProgram(shaderProgram);
+	
+	//check linking shaders to program worked
+	glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
+	if(!success) {
+		glGetProgramInfoLog(shaderProgram, 512, NULL, infoLog);
+		std::cout << "ERROR::SHADER::PROGRAM::LINKING::COMPILATION_FAILED\n" << infoLog << std::endl;
+	}
 
 
     // render loop
