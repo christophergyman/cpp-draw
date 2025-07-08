@@ -917,8 +917,11 @@ CMakeFiles/MyGLFWApp.dir/src/main.cpp.o: /Users/chezu/Documents/github/cpp-draw/
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/chezu/Documents/github/cpp-draw/include/GLFW/glfw3.h \
   /Users/chezu/Documents/github/cpp-draw/include/KHR/khrplatform.h \
-  /Users/chezu/Documents/github/cpp-draw/include/glad/glad.h
+  /Users/chezu/Documents/github/cpp-draw/include/glad/glad.h \
+  /Users/chezu/Documents/github/cpp-draw/include/glfwWindowCreation.h
 
+
+/Users/chezu/Documents/github/cpp-draw/include/glfwWindowCreation.h:
 
 /Users/chezu/Documents/github/cpp-draw/include/GLFW/glfw3.h:
 
