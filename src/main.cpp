@@ -28,12 +28,13 @@ int main() {
     unsigned int shaderProgram;
     unsigned int VBO;
     unsigned int VAO;
-
     shaderProgram = shader.shaderProgram;
     VBO = shader.VBO;
     VAO = shader.VAO;
+    std::cout << "SUCCESS::INITIALISATION::COMPLETE \n";
 
     // main loop render
+    std::cout << "STARTING::RENDERING::LOOP \n";
     while (!glfwWindowShouldClose(window)) {
         processInput(window);
         renderTriangles(shaderProgram, VAO);
@@ -45,5 +46,7 @@ int main() {
     glDeleteBuffers(1, &VBO);
     glDeleteProgram(shaderProgram);
     glfwTerminate();
+    std::cout << "SUCCESS::TERMINATION::COMPLETE \n";
+
     return 0;
 }
