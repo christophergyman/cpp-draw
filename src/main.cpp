@@ -2,6 +2,7 @@
 
 #include "shaders.h"
 #include "glfwWindowCreation.h"
+#include <iostream>
 
 // process all input: query GLFW whether relevant keys are pressed/released
 // this frame and react accordingly
@@ -30,10 +31,16 @@ int main() {
 
     // init shader program, VAO, VBO
     Shaders shader = init_and_compile_shaders();
-    unsigned int shaderProgram, VBO, VAO;
+
+    unsigned int shaderProgram;
+    unsigned int VBO;
+    unsigned int VAO;
+
     shaderProgram = shader.shaderProgram;
-    VBO = shader.shaderProgram;
-    VAO = shader.shaderProgram;
+    VBO = shader.VBO;
+    VAO = shader.VAO;
+
+    std::cout << shaderProgram << "\n";
 
     // render loop
     while (!glfwWindowShouldClose(window)) {
