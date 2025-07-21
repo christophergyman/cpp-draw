@@ -1,19 +1,19 @@
 [
 {
   "directory": "/Users/chezu/Documents/github/cpp-draw/build",
-  "command": "/usr/bin/c++  -I/Users/chezu/Documents/github/cpp-draw/include -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/MyGLFWApp.dir/src/main.cpp.o -c /Users/chezu/Documents/github/cpp-draw/src/main.cpp",
+  "command": "/usr/bin/c++  -I/Users/chezu/Documents/github/cpp-draw/include -I/Users/chezu/Documents/github/cpp-draw/include/GLFW -I/Users/chezu/Documents/github/cpp-draw/include/KHR -I/Users/chezu/Documents/github/cpp-draw/include/glad -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/MyGLFWApp.dir/src/main.cpp.o -c /Users/chezu/Documents/github/cpp-draw/src/main.cpp",
   "file": "/Users/chezu/Documents/github/cpp-draw/src/main.cpp",
   "output": "CMakeFiles/MyGLFWApp.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/chezu/Documents/github/cpp-draw/build",
-  "command": "/usr/bin/cc  -I/Users/chezu/Documents/github/cpp-draw/include -isystem /opt/homebrew/include  -arch arm64 -o CMakeFiles/MyGLFWApp.dir/src/glad.c.o -c /Users/chezu/Documents/github/cpp-draw/src/glad.c",
+  "command": "/usr/bin/cc  -I/Users/chezu/Documents/github/cpp-draw/include -I/Users/chezu/Documents/github/cpp-draw/include/GLFW -I/Users/chezu/Documents/github/cpp-draw/include/KHR -I/Users/chezu/Documents/github/cpp-draw/include/glad -isystem /opt/homebrew/include  -arch arm64 -o CMakeFiles/MyGLFWApp.dir/src/glad.c.o -c /Users/chezu/Documents/github/cpp-draw/src/glad.c",
   "file": "/Users/chezu/Documents/github/cpp-draw/src/glad.c",
   "output": "CMakeFiles/MyGLFWApp.dir/src/glad.c.o"
 },
 {
   "directory": "/Users/chezu/Documents/github/cpp-draw/build",
-  "command": "/usr/bin/c++  -I/Users/chezu/Documents/github/cpp-draw/include -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.o -c /Users/chezu/Documents/github/cpp-draw/src/glfwWindowCreation.cpp",
+  "command": "/usr/bin/c++  -I/Users/chezu/Documents/github/cpp-draw/include -I/Users/chezu/Documents/github/cpp-draw/include/GLFW -I/Users/chezu/Documents/github/cpp-draw/include/KHR -I/Users/chezu/Documents/github/cpp-draw/include/glad -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.o -c /Users/chezu/Documents/github/cpp-draw/src/glfwWindowCreation.cpp",
   "file": "/Users/chezu/Documents/github/cpp-draw/src/glfwWindowCreation.cpp",
   "output": "CMakeFiles/MyGLFWApp.dir/src/glfwWindowCreation.cpp.o"
 }

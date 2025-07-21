@@ -5,7 +5,7 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/chezu/Documents/github/cpp-draw/include -isystem /opt/homebrew/include
+C_INCLUDES = -I/Users/chezu/Documents/github/cpp-draw/include -I/Users/chezu/Documents/github/cpp-draw/include/GLFW -I/Users/chezu/Documents/github/cpp-draw/include/KHR -I/Users/chezu/Documents/github/cpp-draw/include/glad -isystem /opt/homebrew/include
 
 C_FLAGSarm64 =  -arch arm64
 
@@ -13,7 +13,7 @@ C_FLAGS =  -arch arm64
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/chezu/Documents/github/cpp-draw/include -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/chezu/Documents/github/cpp-draw/include -I/Users/chezu/Documents/github/cpp-draw/include/GLFW -I/Users/chezu/Documents/github/cpp-draw/include/KHR -I/Users/chezu/Documents/github/cpp-draw/include/glad -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

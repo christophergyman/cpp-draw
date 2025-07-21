@@ -4,12 +4,6 @@ project(MyGLFWApp)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Add your include directory for glad and KHR
-include_directories(${CMAKE_SOURCE_DIR}/include)
-
-# Add GLFW include path manually (update if you're on Intel)
-include_directories(/opt/homebrew/include)
-
 # Source files
 set(SOURCES
     src/main.cpp
@@ -19,6 +13,15 @@ set(SOURCES
 
 # Add the executable
 add_executable(MyGLFWApp ${SOURCES})
+
+# change to target include for lsp to pickup via cmake
+target_include_directories(MyGLFWApp PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/include/GLFW
+    ${CMAKE_SOURCE_DIR}/include/KHR
+    ${CMAKE_SOURCE_DIR}/include/glad
+    /opt/homebrew/include
+)
 
 # Link GLFW
 find_package(glfw3 REQUIRED)

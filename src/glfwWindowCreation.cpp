@@ -11,7 +11,7 @@ void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 
 // initialis glfw window and creation
 // ---------------------------------------------------------------------------------------------------------
-GLFWwindow* glfw_window_creation(){
+GLFWwindow *glfw_window_creation() {
     // glfw window initialize and configure
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -35,6 +35,6 @@ GLFWwindow* glfw_window_creation(){
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
         std::cout << "Failed to initialize GLAD" << std::endl;
     }
-	
-	return window;
+
+    return window;
 }
