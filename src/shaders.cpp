@@ -10,7 +10,6 @@ const char *vertexShaderSource =
     "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
     "}\0";
 
-
 const char *fragmentShaderSource =
     "#version 330 core\n"
     "out vec4 FragColor;\n"
@@ -18,7 +17,6 @@ const char *fragmentShaderSource =
     "{\n"
     "   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
     "}\n\0";
-
 
 Shaders init_and_compile_shaders() {
     Shaders shader;
@@ -36,9 +34,8 @@ Shaders init_and_compile_shaders() {
         glGetShaderInfoLog(vertexShader, 512, NULL, infoLog);
         std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n"
                   << infoLog << std::endl;
-    }
-    else if (success){
-      std::cout << "SUCCESS::SHADER::VERTEX::COMPILE" << std::endl;
+    } else if (success) {
+        std::cout << "SUCCESS::SHADER::VERTEX::COMPILE" << std::endl;
     }
 
     // fragment shader
@@ -52,9 +49,8 @@ Shaders init_and_compile_shaders() {
         glGetShaderInfoLog(fragmentShader, 512, NULL, infoLog);
         std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n"
                   << infoLog << std::endl;
-    }
-    else if (success){
-      std::cout << "SUCCESS::SHADER::FRAGMENT::COMPILE" << std::endl;
+    } else if (success) {
+        std::cout << "SUCCESS::SHADER::FRAGMENT::COMPILE" << std::endl;
     }
 
     // link shaders
