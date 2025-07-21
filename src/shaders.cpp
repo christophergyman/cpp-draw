@@ -1,11 +1,5 @@
 #include "shaders.h"
-#include <iostream> 
-
-struct Shaders{
-    unsigned int shaderProgram;
-    unsigned int VAO;
-    unsigned int VBO;
-};
+#include <iostream>
 
 // shader source code
 const char *vertexShaderSource =
@@ -22,10 +16,8 @@ const char *fragmentShaderSource =
     "{\n"
     "   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
     "}\n\0";
-    
 
-
-void init_and_compile_shaders(){
+Shaders init_and_compile_shaders() {
     Shaders shader;
     // vertex shader
     unsigned int vertexShader = glCreateShader(GL_VERTEX_SHADER);
@@ -67,16 +59,11 @@ void init_and_compile_shaders(){
     glDeleteShader(fragmentShader);
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
-	float vertices[] = {
-		// triangle 1
-		-0.5f, -0.5f, 0.0f,
-		0.0f, -0.5f, 0.0f,
-		-0.25f, 0.5f, 0.0f,
-		// triangle 2
-		0.0f, -0.5f, 0.0f,
-		0.5f, -0.5f, 0.0f,
-		0.25f, 0.5f, 0.0f
-	};
+    float vertices[] = {
+        // triangle 1
+        -0.5f, -0.5f, 0.0f, 0.0f, -0.5f, 0.0f, -0.25f, 0.5f, 0.0f,
+        // triangle 2
+        0.0f, -0.5f, 0.0f, 0.5f, -0.5f, 0.0f, 0.25f, 0.5f, 0.0f};
 
     unsigned int VBO, VAO;
     glGenVertexArrays(1, &VAO);
@@ -91,5 +78,12 @@ void init_and_compile_shaders(){
     glBindVertexArray(0);
 
     // uncomment this call to draw in wireframe polygons.
-	// glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    // glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+
+    // return shader struct
+    shader.shaderProgram = shaderProgram;
+    shader.VAO = VAO;
+    shader.VBO = VBO;
+
+    return shader;
 }

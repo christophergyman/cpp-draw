@@ -6,9 +6,10 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Source files
 set(SOURCES
-    src/main.cpp
     src/glad.c
+    src/shaders.cpp
     src/glfwWindowCreation.cpp
+    src/main.cpp
 )
 
 # Add the executable
@@ -19,7 +20,6 @@ target_include_directories(MyGLFWApp PRIVATE
     ${CMAKE_SOURCE_DIR}/include
     ${CMAKE_SOURCE_DIR}/include/GLFW
     ${CMAKE_SOURCE_DIR}/include/KHR
-    ${CMAKE_SOURCE_DIR}/include/glad
     /opt/homebrew/include
 )
 

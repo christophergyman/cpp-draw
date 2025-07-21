@@ -1,8 +1,7 @@
 #define GL_SILENCE_DEPRECATION
-#include "glfwWindowCreation.h"
+
 #include "shaders.h"
-#include <GLFW/glfw3.h>
-#include <glad/glad.h>
+#include "glfwWindowCreation.h"
 
 // process all input: query GLFW whether relevant keys are pressed/released
 // this frame and react accordingly
@@ -30,6 +29,11 @@ int main() {
     GLFWwindow *window = glfw_window_creation();
 
     // init shader program, VAO, VBO
+    Shaders shader = init_and_compile_shaders();
+    unsigned int shaderProgram, VBO, VAO;
+    shaderProgram = shader.shaderProgram;
+    VBO = shader.shaderProgram;
+    VAO = shader.shaderProgram;
 
     // render loop
     while (!glfwWindowShouldClose(window)) {
